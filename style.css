@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+
+
+.parte1{
+background-image: url(img/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .menu {
+
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+header .menu li {
+    display: inline-block;
+    color: rgb(218, 179, 218);
+    font-size: 25px;
+    font-family: Poppins;
+
+
+}
+
+header .menu li:hover {
+    color: white;
+    
+
+}
+
+
+header .menu a {
+    color: white;
+    padding: 8px 12px;
+
+}
+
+.botao a {
+    text-decoration: none;
+
+}
+
+.botao ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.botao2 {
+    display: inline-block; 
+    color: rgb(255, 255, 255);
+    background: #5c0b8b;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.botao2:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+.box{
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    top: 80px;
+    left: 850px;
+
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}   
+.texto{
+    position: absolute;
+width: 491px;
+height: 144px;
+left: 160px;
+top: 230px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 50;
+font-size: 52px;
+line-height: 72px;
+
+}
+
+.slogan{
+    position: absolute;
+    left: 93px;
+    top: 100px;
+    color: rgb(233, 222, 222);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 110px;
+}
+.abaixo{
+   
+    position: absolute;
+    width: 453px;
+    height: 72px;
+    left: 97px;
+    top: 350px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 38px;
+    color: white;
+    
+
+}
+.botao01 {
+    background-color: #7425a8;
+    color: rgb(117, 31, 167)55, 255, 255);
+    text-decoration: none;
+    padding: 50px 50px;
+    border-radius: 10px;
+   border: 1px solid;
+   position: absolute;
+   width: 237px;
+   height: 90px;
+    left: 80px;
+     top: 430px;
+
+}
+.seta{
+    position: absolute;
+width: 20px;
+top: 458px;
+right: 140px;
+
+}
+.LI{
+    width: 1000px;
+}
+.Titulo{
+    width: 850px;
+    color: #c9b66d;
+    font-family: Poppins;
+    font-size: 37px;
+
+}
+
+.parte12{
+    background-color: white;
+    
+
+}
+
+.Soluçao{
+    font-family: Poppins;
+    height: 70px;
+    font-size: 60px;
+    color: #a942e4;
+
+}
+
+.solu2{
+    font-family: Poppins;
+    font-size: 30px;
+    color: #8233b1;
+}
+.guitar{
+    width: 1360px;
+    margin: 0 auto;
+  
+}
+
+.guitar li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    border: 4px solid gray;
+    border-radius: 10px;
+    transition: transform 0.4s;
+
+}
+
+.guitar li:hover{
+    transform: scale(1.1);
+
+}
+
+.p1{
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+
+
+.p2{
+    font-size:18px;
+}
+
+.cube{
+ width: 250px;
+ height: 250px;
+}
+
+.coluna{
+    float: left;
+    width: 33.33%;
+  }
+   .icon:after {
+    content: "";
+    clear: both;
+    display: table;
+  
+   }  
+   
+   .parte3{
+
+    background-image: url(img/leoborremeo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 85%;
+    
+
+   }
+
+   form {
+    width: 500px;
+    height: 500px;
+    border: 50px solid;
+    color: white;
+    margin-top: 60px;
+    background-color: white;
+    height: 400px;
+    margin-bottom: 300px;
+   margin-right: 200px;
+   margin-top: 250px;
+    
+
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+
+  
+  .form input,
+  .form textarea {
+      background-color: grey;
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: wheat;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #09d;
+  }
+
+.cadastro{
+    color: black;
+}
+
+.holder{
+    color: white;
+}
+
+.fade{
+    position: absolute;
+    left: 93px;
+    top: 2700px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 110px;
+    
+}
+
+.fade2{
+    position: absolute;
+    left: 93px;
+    top: 400px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110px;
+    
+}
+
+.fade3{
+    position: absolute;
+    left: 93px;
+    top: 500px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.fade4{
+    position: absolute;
+    left: 90px;
+    top: 650px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.insta{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 90px;
+    top: 750px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.fade5{
+    position: absolute;
+    left: 200px;
+    top: 750px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+footer{
+    background-color: black;
+}
+
+.Nomes{
+    color: white;
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+   font-size: 30px;
+   
+}
+
+.Nomes li{
+    margin: 0 10px;
+    margin-top: -270px;
+}
+
+.finalizador{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
